@@ -1,0 +1,278 @@
+@media screen and (max-width:768px){
+	#header {
+	    margin: 0;
+	    padding: 0;
+	    position: fixed;
+	    left: 0;
+	    top: 0;
+	    z-index: 20;
+	    background: white;
+		
+	}
+	#header .container .contact-head{
+		display: none;
+	}
+	#header .container .free>a{
+		display: none;
+	}
+
+	#header .container .menu-header {
+	  display: inline-block;
+	  cursor: pointer;
+	  z-index: 30;
+	}
+
+	.bar1, .bar2, .bar3 {
+	  width: 35px;
+	  height: 5px;
+	  background-color: red;
+	  margin: 6px 0;
+	  transition: 0.4s;
+	}
+	#nav{
+		display: none;
+	}
+	
+	/*#card .container{
+		width: 100%;
+		padding-right: 15px;
+		padding-left: 15px;
+	}*/
+	#slide{
+		max-height: 400px;
+		margin-top: 100px;
+	}
+	#slide .container{
+		width: 100%;
+	}
+
+	#slide .container .content{
+		height: 50%;
+		width: 100%;
+		left: unset;
+
+	}
+	#slide .container .content>p{
+		font-size:25px;
+		margin-top: 10px;
+	}
+	#slide .container .content>a{
+		margin-bottom: 20px;
+		max-width: 50%;
+	}
+	#card{
+		margin-top:20px;
+		margin-bottom: 30px;
+	}
+	#card .container {
+		display: flex;
+		flex-direction: column;
+	}
+	#service{
+		height: unset;
+		max-height: 716px;
+		margin-bottom: 30px;
+	}
+	#service .container{
+		overflow: hidden;
+		height: 100%;
+	}
+	#service .container>p{
+		font-size: 30px;
+		padding-top: 30px;
+
+	}
+	#service .container .service-slide .card-slide{
+		min-width: 100%;
+	}
+	#service .container .service-slide .card-slide>img{
+		
+	}
+	#service .container .service-slide .card-slide>h2 {
+	    margin-top: 0px;
+	    margin-bottom: 2px;
+	}
+	#service .container .service-slide .card-slide>p {
+ 	   line-height: 20px;
+	}
+	#banner{
+		margin:0;
+		padding:0;
+		max-height: 270px;
+	}
+	#banner .container .content {
+	    width: 100%;
+	    display: flex;
+	    flex-direction: column;
+	    margin: 0 auto;
+	    z-index: 2;
+	    position: absolute;
+	    align-items: center;
+		left: 0;
+		top: 10%;
+	}
+	#banner .container .content .text-banner{
+		padding: 10px;
+		text-align: center;
+		font-weight: normal;
+	}
+	#banner .container .content>a {
+	    max-height: 50px;
+	    max-width: 172px;
+	    display: inline-block;
+	    font-size: 18px;
+	    line-height: 50px;
+	    margin-top: 25px;
+	}
+	#banner .container .content .text-banner p.text1{
+		font-size: 25px;
+	}
+	#choose{
+		margin:0;
+		padding:0;
+		height: unset;
+		margin-bottom: 30px;
+	}
+	#choose .container{
+		display: flex;
+	    flex-direction: column;
+		width: 100%;
+	    padding-right: 15px;
+	    padding-left: 15px;
+	    margin:0 auto;
+	    padding-top: 70px;
+	    flex-wrap: wrap;
+
+	}
+	#choose .container .left-choose::after{
+		display: none;
+	}
+	#choose .container .left-choose{
+		width: 100%;
+		height: 100%;
+	    /* min-height: 1px; */
+	    position: relative;
+	    /* height: 100%; */
+	    padding-left: 15px;
+	    padding-right: 15px;
+	}
+	#choose .container .left-choose .image-choose>img{
+		width: 100%;
+		position: unset;
+	}
+
+	#choose .container .text-choose{
+		width: 100%;
+	    /* min-height: 1px; */
+	    position: relative;
+	    margin:0 auto;
+	    padding-left: 15px;
+	    padding-right: 15px;
+	}
+	
+	#choose .container .text-choose p.why {
+	    font-size: 40px;
+	    margin-top: 30px;
+	    margin-bottom: 15px;
+	}
+	#choose .container .text-choose> p.text2 {
+	    margin-bottom: 15px;
+	}
+	#choose .container a{
+		margin-top: 20px;
+	}
+	#number{
+		height: unset;
+	}
+	#number .container{
+		flex-direction: column;
+		padding: 30px 0;
+	}
+	#number .container .num-item{
+		margin-bottom: 30px;
+	}
+	#quote .container .quote-text {
+	    width: 95%;
+	    height: 83%;
+	    margin: 0 auto;
+	}
+	#form{
+		
+		margin-bottom: 30px;
+		height: 900px;
+	}
+	#form .id-bg{
+		height: unset;
+	}
+	#form .id-bg .container{
+		width: 100%;
+		height: unset;
+		flex-direction: column;
+		padding:30px 15px;
+	}
+	#form .container .form-form .form-row{
+		flex-direction: column;
+	}
+	#form .container .form-form .form-row input[type=text], .form-row>select{
+		width: 100%;
+	}
+	#form .container .form-form{
+		margin-left: unset;
+		width: 100%;
+	}
+	#form .container .form-text>a{
+		margin-top: 30px;
+	}
+	#contact{
+		height: unset;
+		width: 100%;
+	}
+	#contact .container{
+		width: 100%;
+		padding: 30px 15px;
+		flex-direction: column;
+		align-items: unset;
+	}
+	#contact .container .contact-left{
+		flex-basis: unset;
+	}
+	#contact .container .inf{
+		flex-basis: unset;
+		margin-left: unset;
+		margin-top: 20px;
+	}
+	#contact .container .inf>p{
+		margin-top:15px;
+	}
+	#list{
+		height: unset;
+	}
+	#list .container{
+		flex-direction: column;
+		padding:50px 15px;
+		width: 100%;
+		display: inline-block;
+	}
+	#list .container .list-item>h3 {
+	    margin-bottom: 20px;
+	}
+	#list .container .list-item>ul>li{
+		margin-bottom: 15px;
+	}
+	#list .container .list-item .input-email {
+    	width: 100%;
+    }
+    #list .container .list-item .input-email> input{
+    	width: 100%;
+    }
+    #list .container .list-item>p{
+    	margin-top: 20px;
+    	font-size: 13px;
+    }
+    #footer{
+    	height: unset;
+    	padding:30px 15px;
+    	line-height: 25px;
+    	font-size: 12px;
+    }
+}
